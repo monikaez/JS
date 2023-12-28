@@ -14,8 +14,7 @@ function suppliesforSchool(value){
     let totalSum = ((countPaketPen*pricePen)+(countPaketMarker*priceMarker)+(litrPreparat*pricePreparat));
     let finalSum = totalSum-totalSum*(percentDisc/100);
     console.log(finalSum);
-
-    
+   
 } 
 suppliesforSchool(["2 ","3 ","4 ","25 "]);
 //•	Пакет химикали - 5.80 лв. 
